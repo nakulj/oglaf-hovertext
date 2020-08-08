@@ -1,0 +1,10 @@
+{
+  "name": "Oglaf Hovertext",
+  "version": "1.0",
+  "description": "Render Oglaf hovertext in-page without actually hovering.  https://github.com/nakulj/oglaf-hovertext",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": ["*://www.oglaf.com/*"],
+    "js": ["content.js"]
+  }]
+}
